@@ -1,0 +1,31 @@
+<div id="shang">
+  <ul>
+      <li><a href="#"><i class="icon ion-at"></i>我的</a></li>
+      <li><a href="#"><i class="icon ion-thumbsup"></i>我的赞</a></li>
+      <li><a href="#"><i class="icon ion-ios-chatbubble-outline"></i>评论</a></li>
+  </ul> 
+</div>
+
+<div id="qieshuo">
+    <ul id="leftll">
+        <li *ngFor="let message of messages;">
+                  
+                 <a href="#"><img src="{{message.touxiang}}" alt="" id="touxiang"></a>
+                 
+                <span class="rr">
+                <span id="pp">{{message.person}}</span>
+                <p>{{message.neirong}}</p>
+                </span>
+
+                <div id="xx">
+                <span id="tt">{{message.time}}</span>
+                <span id="yy">收藏{{message.shoucang}}|</span>&nbsp;&nbsp;
+                <span id="yys">转发{{message.zhuanfa}}|</span>&nbsp;&nbsp;
+                <span id="yys">评论{{message.pinglun}}|</span>&nbsp;&nbsp;
+                <span>赞{{message.zan}}</span>
+                </div>
+                 
+        </li>
+    </ul>
+  </div>
+

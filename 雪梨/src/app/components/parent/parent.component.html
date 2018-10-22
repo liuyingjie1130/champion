@@ -1,0 +1,21 @@
+<p>
+  这是父组件
+</p>
+<!-- <app-child [arr]="data"></app-child>
+<app-child [arr]="data" [arr1]="data1" (delIndex)="del($event)">
+  <h1 class="header">这是h1</h1>   
+  <footer class="foot">end</footer>
+</app-child> -->
+
+ <!-- 
+   上下两个有相同的部分  可以换不同的内容   在子组件html中添加<ng-content></ng-content>可以
+  -->
+<!-- <app-child [arr]="data1" [arr1]="data1" (delIndex)="del($event)">
+  <h2 class="header">这是h2</h2>
+  <h2 class="foot">end</h2>
+</app-child> -->
+ <!-- //自己写的delIndex事件 -->
+
+
+ <app-child></app-child>
+ <button (click)="add()">添加</button>

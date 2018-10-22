@@ -1,0 +1,32 @@
+<nav>
+  <div id="logo">
+      <a [routerLink]="['/home']"><img src="assets/logo.png"/></a>
+  </div>
+  <ul class="nav">
+    <li> &nbsp;</li><li> &nbsp;</li><li> &nbsp;</li>
+    <li><a [routerLink]="['/home']">首页</a></li>
+    <li><a [routerLink]="['/tongbu']">同步课</a></li>
+    <li><a [routerLink]="['/course']">课程</a></li>
+    <li><a [routerLink]="['/community']" [queryParams]="{id:800,name:'ll'}">社区</a></li>
+    <li><input class="search" type="search" placeholder="搜索课程、问答"><button class="search1"><i class="icon ion-search"></i></button>
+    </li>
+    <li class="message">
+      <div class="btn"><i class="icon ion-ios-bell-outline"></i></div>
+      <div class="con">
+        <a>@我的</a>
+        <a><i class="icon ion-thumbsup"></i>收到的赞</a>
+        <a><i class="icon ion-chatbubbles"></i>评论</a>
+      </div>
+    </li>
+    <li class="message">
+      <div class="btn"><i class="icon ion-android-contact"></i></div>
+      <div class="con">
+        <a><i class="icon ion-ios-person"></i>个人主页</a>
+
+        <a><i class="icon ion-gear-b"></i>设置</a>
+        <a><i class="icon ion-android-cancel"></i>退出</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+

@@ -1,0 +1,19 @@
+.container{
+    width:1200;
+    margin:20px 150px;
+}
+.container li{
+    text-align: center;
+    width: 240px;
+    height:240px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.xia{
+    margin-top: 30px;
+}
+
+.btn{margin-left: 80px;}

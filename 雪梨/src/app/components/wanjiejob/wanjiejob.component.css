@@ -1,0 +1,40 @@
+#real li{
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    width:800px;
+    height: 80px;;
+    /* line-height: 80px; */
+}
+#jiezhi{
+    border:1px solid orange;
+    color: orange;
+}
+#zhuangtai{
+    border:1px solid orange;
+    color: orange;
+    border-radius: 50px;
+}
+h3{float: left;}
+#zz{
+    margin:5px 30px;
+    width:500px;
+    height: 20px;
+}
+#fenshu{margin-left:600px;
+}
+#course{width:600px;float: left;
+background-color: grey;}
+#eye{
+    background-color: grey;
+    width:80px;height:30px;
+    border: 1px solid gainsboro;
+}
+#xj{
+    width:80px;height:50px;
+    background-color: grey;
+    margin-left: 0px;
+    border: 1px solid gainsboro;
+}
+a{
+    color: black;
+}

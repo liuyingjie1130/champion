@@ -1,0 +1,46 @@
+#shang{
+    color: orangered;
+    float: left;
+    margin-top: 10px;
+}
+#ser{
+    margin-left: 400px;
+}
+.search{
+    height:30px;
+}
+.search1{
+    height:30px;
+    width:30px;
+    font-size: 18px;
+}
+#tbli{
+    border-top: 2px solid gainsboro;
+    width:800px;
+}
+
+#tbli li{
+
+    border-top: 2px solid gainsboro;
+    height:150px;
+}
+#img{
+    float: left;
+}
+#zhong{
+    float: left;
+    width:200px;
+    height:150px;
+    margin-left: 30px;
+    line-height: 60px;
+}
+
+#ri{
+    border: 2px solid palevioletred;
+    border-radius: 100px;
+    width:100px;
+    height: 100px;
+    margin-left: 500px;
+    text-align: center;
+    line-height: 100px;
+}

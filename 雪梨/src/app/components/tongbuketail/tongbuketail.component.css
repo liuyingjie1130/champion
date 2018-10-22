@@ -1,0 +1,71 @@
+.container{
+    border: 1px solid gainsboro;
+    margin:1px auto;
+    background-color: gainsboro;
+}
+h2{
+    margin: 20px 200px 30px 200px;;
+}
+a{
+    color: black;
+}
+.ll{margin-left:200px;}
+.ll li{
+  margin-right: 50px;
+  display: inline;
+  font-size: 18px;
+}
+#renwu{
+    background-color: white;
+}
+#l1{
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    margin:10px 200px;
+    background-color: orangered;
+    border:1px solid gainsboro;
+    
+}
+#l2{
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid gainsboro;
+    position: absolute;
+    left:300px;
+    top:165px;
+}
+
+.job{margin-top: 20px;}
+.job li{
+    width:1000px;
+    line-height: 50px;
+    border: 1px solid ghostwhite;
+    margin-left: 200px;
+
+}
+.job li:hover{
+    background-color:papayawhip;
+}
+ .jz{
+     margin-left: 500px;
+ }
+#fs1{
+   position: absolute;
+   left:1050px;
+   top:220px;
+}
+#fs2{
+    position: absolute;
+    left:1050px;
+    top:320px;
+ }
+ .aa{
+    margin-left: 30px;
+}
+ .ss{
+     margin-left: 70px;
+ }

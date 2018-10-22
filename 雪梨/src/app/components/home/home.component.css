@@ -1,0 +1,48 @@
+a{color: black;}
+.left{
+    /* border:1px solid gainsboro; */
+    width:200px;
+    height:500px;
+    margin-left: 200px;
+    margin-top:20px;
+    float: left;
+    text-align: center
+}
+
+.right{
+    /* border:1px solid gainsboro; */
+    width:800px;
+    height:500px;
+    margin-left: 430px;
+    margin-top:20px;
+}
+#fs{
+    margin-left: 40px;
+    float: left;
+}
+#xiahuaxian{
+    color:grey;
+}
+#down{margin-top:20px;}
+#down li{
+    width:150px;
+    margin-left: 18px;
+    line-height: 30px;
+}
+#first{
+    background-color: blanchedalmond;
+}
+#down li:hover{
+    background-color: blanchedalmond;
+}
+.jt{
+    position:absolute;
+    left: 350px;
+}
+
+
+
+    
+
+#l1{color: orangered}
+a{color: black}

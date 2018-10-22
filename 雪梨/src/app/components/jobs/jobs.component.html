@@ -1,0 +1,12 @@
+<div id="top">
+     <ul>
+      <li ><a [routerLink]="['/home/jobs/nojob']" id="l1"><i class="icon ion-pie-graph"></i>未提交</a></li>
+      <li><a [routerLink]="['/home/jobs/realjob']"><i class="icon ion-ios-checkmark"></i>已完成</a></li>
+      <li><a [routerLink]="['/home/jobs/wanjiejob']"><i class="icon ion-ios-refresh"></i>已完结</a></li>
+      <li><input class="search" type="search" placeholder="输入同步课名称搜索"><button class="search1"><i class="icon ion-search"></i></button>
+      </li>
+    </ul>
+</div>
+<div id="realjob">
+  <router-outlet></router-outlet>
+</div>

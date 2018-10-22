@@ -1,0 +1,21 @@
+<div  id="real">
+    <ul>
+        <li *ngFor="let job of jobs;">
+                <a href="#"><h3>{{job.Name}}</h3></a>
+                <div id="zz">
+                    <span id="jiezhi">{{job.jiezhi}}</span>
+                    <span id="zhuangtai">{{job.zhuangtai}}</span>
+                    <!-- <span id="fenshu">{{job.fenshu}}分</span> -->
+                </div>
+                <div id="fenshu">{{job.fenshu}}分</div>
+                
+                <div id="course"><a href="#">{{job.course}}</a></div>
+                <div id="xxx">   
+                    <span id="eye"><a href="#"><i class="icon ion-eye"></i></a></span>
+                    <span id="xj"><a href="#"><i class="icon ion-chevron-down"></i></a></span>
+                </div>
+               
+       </li>
+        
+    </ul>
+</div>

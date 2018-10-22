@@ -1,0 +1,37 @@
+<div id="top">
+  <ul>
+    <li class="fi">
+      <div class="t1-"><a href="#">课程分类<i class="icon ion-arrow-down-b"></i></a></div>
+      <div class="one">
+        <a href="#">web前端开发</a>
+        <a href="#">web后端开关</a>
+        <a href="#">移动设备开发</a>
+        <a href="#">软件测试</a>
+      </div>
+    </li>
+    <li class="sec">
+      <div class="t2-"><a href="#">课程体系<i class="icon ion-arrow-down-b"></i></a></div>
+      <div class="two">
+        <a href="#">计算机基础技能</a>
+        <a href="#">web前端工程师</a>
+        <a href="#">Android开发工程师</a>
+        <a href="#">产品设计</a>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="container">
+    <ul>
+      <li *ngFor="let kecheng of kechengs;">
+        <a [routerLink]="['/course',kecheng.id]">
+            <img src="{{kecheng.images}}" alt="">
+            <h3>{{kecheng.courseName}}</h3>
+            <div class="xia">
+              <span>任务</span><span>{{kecheng.task}}</span>&nbsp;&nbsp;
+              <span>人数</span><span>{{kecheng.person}}</span>
+            </div>
+        </a>
+        
+      </li>
+    </ul>
+  </div>

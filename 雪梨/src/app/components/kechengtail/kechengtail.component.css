@@ -1,0 +1,14 @@
+.bt{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.list li{
+    float: left;
+    margin-left: 10px;
+}
+h3{margin-left: 200px;}
+#vid{
+    margin:-200px 200px;
+}

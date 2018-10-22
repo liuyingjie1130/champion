@@ -1,0 +1,24 @@
+<div id="shang">
+  我加入的
+</div>
+<div id="ser">
+  <input class="search" type="search" placeholder="搜索课程、问答">
+  <button class="search1"><i class="icon ion-search"></i></button>
+</div>
+
+<div id="tbli">
+  <ul >
+    <li *ngFor="let course of courses;">
+      <div id="img"><img src="{{course.images}}"></div>
+      <div id="zhong" >
+        <h3>{{course.courseName}}</h3>
+        <span id="dd"><i class="icon ion-ios-list-outline"></i>{{course.task}}</span>
+        <span><i class="icon ion-android-person"></i>{{course.person}}</span>
+      </div>
+
+      <div id="ri">
+        {{course.sjfenshu}}分
+      </div>
+    </li>
+</ul>
+</div>
