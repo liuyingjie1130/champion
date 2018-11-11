@@ -1,0 +1,41 @@
+page-home {
+.ion-header{
+    display: inline-block;
+}
+#jujia{
+    margin-left: 165px;
+    float: left;
+}
+#ss{
+    margin-left: 365px;
+   font-size: 30px;
+}
+#bt{
+    padding-left: 0px;
+    margin-left:-18px;
+    height: 44px;
+    // .first{
+    //     border-bottom:2px solid #ffdb2c;
+    // }
+}
+#bt li{
+font-size: 20px;
+float: left;
+width:25%;
+height: 44px;
+text-align: center;
+}
+
+ion-slides{
+    height:auto;
+    width:100%;
+    img{
+        width:100%;
+    }
+}
+
+.jiaju-sli{
+    height: 178px;;
+}
+.juzijiaju{height:40px;margin-left: 110px;}
+}

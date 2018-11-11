@@ -1,0 +1,146 @@
+<ion-header>
+  <ion-navbar color="yel">
+    <img src="../assets/imgs/bt.png" id="jujia">
+    <div id="ss"><ion-icon name="search"></ion-icon></div> 
+  
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  
+  <ul id="bt">
+    <li class="first" (click)="change0()" ><a href="#">推荐</a></li>
+    <li class="second" (click)="change1()" ><a href="#">家居</a></li>
+    <li class="third" (click)="change2()"><a href="#">餐厨</a></li>
+    <li class="fourth" (click)="change3()"><a href="#">床上用品</a></li>
+  </ul>
+
+
+  <div class="con" [ngSwitch]="num">
+
+  <!-- <div *ngSwitchCase="0">
+  <ion-slides pager="true" loop="true" autoplay="300">
+    <ion-slide>
+      <img src="/assets/imgs/life_02.png">
+    </ion-slide>
+    <ion-slide>
+        <img src="/assets/imgs/life_02.png">
+    </ion-slide>
+    <ion-slide>
+        <img src="/assets/imgs/life_02.png">
+    </ion-slide>
+  </ion-slides>
+
+  <img src="assets/imgs/tuijian.png">
+  
+
+  <div class="row responsive-sm row-center">
+    <div class="col ">
+      <img src="assets/imgs/1首页01.png">
+    </div>
+    <div class="col col-offset-10">
+      <img src="assets/imgs/1首页02.png">
+    </div>
+  </div>
+  <div class="row responsive-sm row-center">
+    <div class="col ">
+      <img src="assets/imgs/1首页03.png">
+    </div>
+    <div class="col col-offset-10">
+      <img src="assets/imgs/1首页04.png">
+    </div>
+  </div>
+  <div class="row responsive-sm row-center">
+    <div class="col ">
+      <img src="assets/imgs/1首页05.png">
+    </div>
+    <div class="col col-offset-10">
+      <img src="assets/imgs/1首页06.png">
+    </div>
+  </div>
+  </div> -->
+  <div *ngSwitchCase="1">
+      <ion-slides class="jiaju-sli" pager="true" loop="true" autoplay="300">
+          <ion-slide>
+            <img src="/assets/imgs/manyuan.png">
+          </ion-slide>
+          <ion-slide>
+              <img src="/assets/imgs/manyuan.png">
+          </ion-slide>
+          <ion-slide>
+              <img src="/assets/imgs/manyuan.png">
+          </ion-slide>
+      </ion-slides>
+      <div class="row jiaju">
+        <img  style="width:100px;height:120px;margin-right: 12px;" class="col col-33" src="assets/imgs/keting.png">
+        <img style="width:100px;height:120px;margin-right: 12px;"  class="col col-33" src="assets/imgs/shufang.png">
+        <img  style="width:100px;height:120px;margin-right: 12px;" class="col col-33" src="assets/imgs/menting.png">
+      </div>
+
+      <img class="juzijiaju" src="assets/imgs/juzijiaju.png" >
+
+      <div class="row responsive-sm row-center">
+          <div class="col ">
+            <img src="assets/imgs/家居页01.png">
+          </div>
+          <div class="col col-offset-10">
+            <img src="assets/imgs/家居页02.png">
+          </div>
+      </div>
+      <div class="row responsive-sm row-center">
+          <div class="col ">
+            <img src="assets/imgs/家具页03.png">
+          </div>
+          <div class="col col-offset-10">
+            <img src="assets/imgs/家具页04.png">
+          </div>
+      </div>
+
+  </div>
+
+  <div *ngSwitchDefault>
+    <ion-slides pager="true" loop="true" autoplay="300">
+      <ion-slide>
+        <img src="/assets/imgs/life_02.png">
+      </ion-slide>
+      <ion-slide>
+          <img src="/assets/imgs/life_02.png">
+      </ion-slide>
+      <ion-slide>
+          <img src="/assets/imgs/life_02.png">
+      </ion-slide>
+    </ion-slides>
+  
+    <img src="assets/imgs/tuijian.png">
+    
+  
+    <div class="row responsive-sm row-center">
+      <div class="col ">
+        <img src="assets/imgs/1首页01.png">
+      </div>
+      <div class="col col-offset-10">
+        <img src="assets/imgs/1首页02.png">
+      </div>
+    </div>
+    <div class="row responsive-sm row-center">
+      <div class="col ">
+        <img src="assets/imgs/1首页03.png">
+      </div>
+      <div class="col col-offset-10">
+        <img src="assets/imgs/1首页04.png">
+      </div>
+    </div>
+    <div class="row responsive-sm row-center">
+      <div class="col ">
+        <img src="assets/imgs/1首页05.png">
+      </div>
+      <div class="col col-offset-10">
+        <img src="assets/imgs/1首页06.png">
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+
+</ion-content>
